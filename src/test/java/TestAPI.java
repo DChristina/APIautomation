@@ -75,7 +75,7 @@ public class TestAPI
                 when().
                 post("");
         // response.then().statusCode(201);
-        //String body = response.getBody().asString();gfdgdgdfgdgdfgdfgdf
+        //String body = response.getBody().asString();gfdgdgdfgdgdfgdfgdffdsfsdfsdfsdfsdsf
         //System.out.println(body);
         Response response = given().get("http://localhost:8088/SpringBootRestApi/api/user/");
         Assert.assertTrue(response.asString().contains("Marfushawqa"));
